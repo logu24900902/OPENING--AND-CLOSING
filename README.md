@@ -31,7 +31,7 @@ from google.colab.patches import cv2_imshow
 # i) Create the text using cv2.putText
 img1 = np.zeros((300, 600), dtype='uint8')
 font = cv2.FONT_ITALIC
-img2 = cv2.putText(img1, "Hiruthik Sudhakar", (5, 200), font, 2, (255), 6, cv2.LINE_AA)
+img2 = cv2.putText(img1, "LOGU R", (5, 200), font, 2, (255), 6, cv2.LINE_AA)
 
 cv2_imshow(img2)
 
